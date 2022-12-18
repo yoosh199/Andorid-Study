@@ -50,4 +50,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+    
+    @Override
+    public void onBackPressed() {
+        //이전 프래그먼트를 불러올수 있는 방법은 없을까?
+        getSupportFragmentManager().popBackStack();
+
+        super.onBackPressed();
+    }
 }
