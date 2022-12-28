@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BlackText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+<!--    사용자 정의 스타일-->
+    <style name="Green">
+        <item name="android:textColor">#10CF11</item>
+    </style>
+
+<!--    parent 사용해서 상속-->
+    <style name="GreenLarge" parent="Green">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+<!--    .이용해서 상속-->
+    <style name="Green.Large">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+
+<!--    시스템 스타일도 상속가능-->
+    <style name="myTextAppearance" parent="android:TextAppearance">
+
+    </style>
+
+
+    <style name="ShadowTextStyle" parent="android:Widget.TextView">
+        <item name="android:shadowColor">#FF0000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+
+    </style>
+
+
+
+</resources>
