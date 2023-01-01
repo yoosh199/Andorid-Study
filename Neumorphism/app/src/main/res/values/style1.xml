@@ -24,6 +24,7 @@
 
 
 
+
 <!--    시스템 스타일도 상속가능-->
     <style name="myTextAppearance" parent="android:TextAppearance">
 

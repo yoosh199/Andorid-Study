@@ -7,6 +7,4 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="neumorph_shadowColorLight">#B5FFFFFF</color>
-    <color name="neumorph_shadowColorDark">#D89A9A9A</color>
 </resources>
