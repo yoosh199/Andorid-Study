@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         SearchView searchView = (SearchView) menu.findItem(R.id.toolbar_search).getActionView();
-
+        searchView.setQueryHint("Search Product");
         searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
 
         return true;
